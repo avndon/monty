@@ -4,4 +4,7 @@
 
 # Getting Started 
 
-#### 
+# AUTHORS ----> 
+- https://github.com/SeasonLeague
+- https://github.com/deenick24
+
