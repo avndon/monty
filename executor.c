@@ -5,6 +5,7 @@
  *
  * Return: An array of instructions supported by this program
  */
+
 instruction_t *get_opcode_handlers(void)
 {
 	static instruction_t handlers[] = {
@@ -36,6 +37,7 @@ instruction_t *get_opcode_handlers(void)
  * @line_num: The line number of the line being executed
  * @stack_values: The stack of values of the program
  */
+
 void execute_line(char *line, int line_num, stack_t **stack_values)
 {
 	instruction_t *opcode_handlers = get_opcode_handlers();

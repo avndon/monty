@@ -13,6 +13,7 @@ static char Data_Format;
  *
  * Return: 0 if successful, otherwise 1
  */
+
 int main(int argc, char *argv[])
 {
 	if (argc == 2)
@@ -39,6 +40,7 @@ int main(int argc, char *argv[])
  *
  * Return: A pointer to the interpreter's mode flag
  */
+
 char *get_data_mode(void)
 {
 	return (&Data_Format);
@@ -49,6 +51,7 @@ char *get_data_mode(void)
  *
  * Return: The lines of the current file
  */
+
 char **get_lines(void)
 {
 	return (Lines);
@@ -57,6 +60,7 @@ char **get_lines(void)
 /**
  * clean_up_program - Frees dynamically allocated memory blocks
  */
+
 void clean_up_program(void)
 {
 	stack_t *node = Values, *tmp = NULL;
@@ -89,6 +93,7 @@ void clean_up_program(void)
  * exit_program - Safely exits the program with the given status code
  * @status: The status code to exit with
  */
+
 void exit_program(int status)
 {
 	clean_up_program();
