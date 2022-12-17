@@ -6,6 +6,7 @@
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_mod(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode(), error = TRUE;
@@ -53,6 +54,7 @@ void mty_op_mod(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_pchar(stack_t **stack, unsigned int line_number)
 {
 	stack_t *node = get_top_element(stack);
@@ -82,6 +84,7 @@ void mty_op_pchar(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_pstr(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();
@@ -112,6 +115,7 @@ void mty_op_pstr(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_rotl(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();
@@ -150,6 +154,7 @@ void mty_op_rotl(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_rotr(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();

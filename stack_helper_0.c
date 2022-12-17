@@ -5,6 +5,7 @@
  * @stack: The pointer to the stack of values
  * @n: The data stored by the stack's new item
  */
+
 void push(stack_t **stack, int n)
 {
 	stack_t *node = NULL, *new_node = NULL;
@@ -36,6 +37,7 @@ void push(stack_t **stack, int n)
  *
  * Return: The data stored by the removed item if there were any
  */
+
 int pop(stack_t **stack)
 {
 	stack_t *node = NULL;
@@ -66,6 +68,7 @@ int pop(stack_t **stack)
  *
  * Return: The data stored by the removed item if there were any
  */
+
 int dequeue(stack_t **stack)
 {
 	stack_t *node = NULL;
@@ -94,6 +97,7 @@ int dequeue(stack_t **stack)
  * @stack: The pointer to the stack of values
  * @n: The data stored by the stack's new item
  */
+
 void enqueue(stack_t **stack, int n)
 {
 	push(stack, n);

@@ -6,6 +6,7 @@
  *
  * Return: The length of the string.
  */
+
 int str_len(const char *str)
 {
 	int len = 0;
@@ -23,6 +24,7 @@ int str_len(const char *str)
  *
  * Return: A pointer to the concatenated string
  */
+
 char *str_cat(char *left, char *right, char can_free)
 {
 	int left_length = str_len(left);
@@ -52,6 +54,7 @@ char *str_cat(char *left, char *right, char can_free)
  *
  * Return: A pointer to the first string in the array of strings
 */
+
 char **str_split(char *str, char c, int *len_out, char can_free)
 {
 	int i = 0, j = 0, o = 0, s = 0, n = 0;

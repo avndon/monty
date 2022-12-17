@@ -5,6 +5,7 @@
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_push(stack_t **stack, unsigned int line_number)
 {
 	char *line = get_lines()[line_number - 1];
@@ -43,6 +44,7 @@ void mty_op_push(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_pall(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();
@@ -73,6 +75,7 @@ void mty_op_pall(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_pint(stack_t **stack, unsigned int line_number)
 {
 	char error = TRUE;
@@ -99,6 +102,7 @@ void mty_op_pint(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_pop(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();
@@ -126,6 +130,7 @@ void mty_op_pop(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_swap(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode(), error = TRUE;

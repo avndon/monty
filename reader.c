@@ -7,6 +7,7 @@
  *
  * Return: The lines of the file, otherwise NULL
  */
+
 char **read_file(char *path, int *lines_count)
 {
 	char buf[1024] = {0}, stop = FALSE, *str = NULL;
@@ -46,6 +47,7 @@ char **read_file(char *path, int *lines_count)
  *
  * Return: The string read, otherwise NULL
  */
+
 char *read_word(char *str, int *offset)
 {
 	int i = 0, a = -1, len;

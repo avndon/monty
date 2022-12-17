@@ -4,6 +4,7 @@
  * malloc_failure - Performs the malloc failure routines
  * @failed: Specifies if malloc failed
  */
+
 void malloc_failure(char failed)
 {
 	if (failed)
@@ -21,6 +22,7 @@ void malloc_failure(char failed)
  *
  * Return: The pointer to the new memory block otherwise NULL
  */
+
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *new_ptr = NULL;
@@ -62,6 +64,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
  * @n: The length of the buffer to fill
  * @c: The byte to fill the buffer's section with
  */
+
 void mem_set(char *str, int n, char c)
 {
 	int i;

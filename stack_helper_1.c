@@ -7,6 +7,7 @@
  *
  * Return: The node at the top, otherwise NULL
  */
+
 stack_t *get_top_element(stack_t **stack)
 {
 	char data_mode = *get_data_mode(), stop = FALSE;
@@ -39,6 +40,7 @@ stack_t *get_top_element(stack_t **stack)
  *
  * Return: The node at the bottom, otherwise NULL
  */
+
 stack_t *get_bottom_element(stack_t **stack)
 {
 	char data_mode = *get_data_mode(), stop = FALSE;

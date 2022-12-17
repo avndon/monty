@@ -5,6 +5,7 @@
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_stack(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();
@@ -31,6 +32,7 @@ void mty_op_stack(stack_t **stack, unsigned int line_number)
  * @stack: The pointer to the stack of data
  * @line_number: The current line number
  */
+
 void mty_op_queue(stack_t **stack, unsigned int line_number)
 {
 	char data_mode = *get_data_mode();

@@ -6,6 +6,7 @@
  *
  * Return: TRUE if it is valid, otherwise FALSE
  */
+
 char is_integer(char *str)
 {
 	int i = 0;
@@ -35,6 +36,7 @@ char is_integer(char *str)
  *
  * Return: TRUE if the character is a valid code, otherwise FALSE
  */
+
 char is_ascii_char(int c)
 {
 	return ((c >= 0) && (c <= 127) ? TRUE : FALSE);
@@ -45,7 +47,8 @@ char is_ascii_char(int c)
  * @c: The character to check
  *
  * Return: 1 or 0
- */
+*/
+
 char is_whitespace(char c)
 {
 	int i;
